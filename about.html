@@ -1,0 +1,102 @@
+<!-- Boiler Plate: The HTML templet to start a website -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- I changed the title to show differently in the tab. -->
+    <title>Quick Info and Tips</title>
+</head>
+<body>
+
+<!-- I use <header> for introductory content. I also use <h1> to title my page. -->
+ <header><h1>Quick Info and Tips</h1></header>
+
+    <!-- <div> is used to group my anchors together, and the <a> element is used to setup
+    my anchors with href to my three pages. -->
+    <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- I used <h2> to give another title element for a new section. I use main to inform that
+    this is the <main> body of information on the page. I use <p> element to describe the
+    text within the main body. -->    
+    <h2>The Types of Audio Work</h2>
+    <main>
+        <p>There are multiple was to work with audio. The two main ones are:</p>
+
+        <!-- <ul> is used to create an unordered list while <li> places your list text that you'd like to use. -->
+        <ul>
+            <li>Live Audio Engineer or A1</li>
+            <li>Studio Engineer</li>
+        </ul>
+        <p>The one we are going to talk about is live audio.</p>
+        <!-- <img> is to enter an image and I added height and width to adjust its pixels to make it sit well
+        in the page. -->
+        <img src="https://www.trcoa.edu/trcoaimages/careers/live-sound-engineer.jpg" height="350" width="600" alt="Concert Audio Engineer">
+
+    <!-- I use <section> to further define information grouping in the main body of the page.
+    I then use <h3> to add an additional title. -->
+    <section>
+        <h3>Live Audio</h3>
+
+        <!-- I use <p> element to describe the text within the main body. -->
+        <p>When working with live audio. It's different then working in a studio.
+        A lot of it is practiced with a teacher before you ever get a chance to do it yourself.<br>
+        When you start getting better you need to know a bit about frequencies and how to use them to 
+        fix sound right.</p>
+        
+    </section>
+
+    <!-- I use <section> to further define information grouping in the main body of the page.
+    I then use <h3> to add an additional title. -->
+    <section>
+        <h3>Frecuency Tip</h3>
+
+        <!-- I use <p> element to describe the text within the main body. I used <img> to enter another image
+        and added height to adjust its pixels to make it sit well in the page.-->
+        <P>Here is a frequency chart and tips on what they do when working on someones voice.</P>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQcJiAjn2el7kHrWoffDpjZk5yWuDO_l0zYQ&s" height="395" alt="Hertz Frequency Chart">
+        
+        <!-- <table> is used to organize the information in a way the user can use. with the image I placed
+        above in the form of a table. <tr> creates additional rows for the table. <th> is used for the 
+        main headers of information on the table. <td> is the data for said table. -->
+        <table>
+            <tr>
+                <th>Frequency</th>
+                <th>What it does</th>
+            </tr>
+            <tr>
+                <td>
+                    0-280 hz
+                </td>
+                <td>
+                    This is what is called low end. It is used to get rid of the bass
+                    or low rumble in a voice.
+                </td>
+            </tr><br>
+            <tr>
+                <td>
+                    280-2k hz
+                </td>
+                <td>
+                    These are your Mids. This is where you adjust 
+                    for the main body of someones voice.
+                </td>
+            </tr><br>
+            <tr>
+                <td>
+                    2k-20k hz
+                </td>
+                <td>
+                    These are your Highs. You adjust here to get rid of percing sound
+                    and to brighten up a persons voice.
+                </td>
+            </tr><br>
+        </table>
+    </section>
+    </main>
+</body>
+</html>
