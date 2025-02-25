@@ -1,3 +1,112 @@
+/* Coding Steps:
+    * Style the website you made last week using CSS with the following requirements:
+    * Use only external CSS file (no internal or inline styling)
+    * Every element must be styled.
+    * Create style rules using class, id, and element selectors. */
+
+/* -- ELEMENTS --*/
+/* -- Added color,font styling, and margin/border to elements --*/
 body{
     background-color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 1rem 20rem;
+}
+h1{
+    color: #eee;
+    font-style: italic;
+    background-color: rgb(66, 97, 117);
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+}
+h2{
+    font-style: italic;
+    background-color: #6e9193;
+    width: max-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+h3{
+    font-style: italic;
+    background-color: #a5c2c3;
+    width: max-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+p{
+    font-size: 25px;
+    margin: 2% 5rem;
+}
+img{
+    display: block;
+    margin: auto;
+    justify-content: space-around;
+    padding: 1em;
+
+}
+/* -- Nav -- */
+/* -- Added color,font styling, and margin/border to Navbar via class--*/
+.navbar{
+    background-color: burlywood;
+    border-radius: 10px;
+    text-align: justify;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 20px 12.7%;
+    font-size: 18px;
+}
+.navbar a:hover{
+    color: white;
+    font-style: italic;
+    font-size: 22px;
+}
+.navbar a:active{
+    background-color: rgb(14, 88, 153);
+    border-radius: 99%;
+}
+
+/* -- LIST --*/
+/* -- Added font styling and margin/border to list via ID --*/
+#type-list{
+    display: block;
+    margin-left: 5rem;
+    font-size: 18px;
+    font-style: italic;
+}
+/* -- TABLE -- */
+/* -- Added color,font styling, and margin/border to table via ID --*/
+#frequency-table{
+    background-color: #a5c2c3;
+    width: fit-content;
+    border-radius: 4px;
+    padding: 1em;
+    display: flex;
+}
+#frequency-table th{
+    font-size: 20px;
+    padding-bottom: 1em;
+    text-shadow: 2px 2px #6e9193;
+}
+#frequency-table td{
+    font-display: flex;
+    font-size: 18px;
+}
+
+/* -- FORM-- */
+/* -- Added color,font styling, and margin/border to forms via class --*/
+.form{
+    background-color: #a5c2c3;
+    width: fit-content;
+    padding: 5px 5px;
+    margin:2rem 4px;
+}
+.form input{
+    font-size: 20px;
+    flex-wrap: wrap;
 }
